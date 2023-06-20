@@ -14,7 +14,7 @@ RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list \
     --no-cache-dir \
     # -i https://mirrors.cloud.tencent.com/pypi/simple/ \
     --index-url=https://www.piwheels.org/simple \
-    requests selenium==4.5.0 schedule==1.1.0 ddddocr==1.4.7 undetected_chromedriver==3.1.6
+    requests selenium==4.10.0 schedule==1.1.0 ddddocr==1.4.7 undetected_chromedriver==3.1.6
 
 ENV TZ=Asia/Shanghai
 
