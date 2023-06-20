@@ -12,7 +12,7 @@ RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list \
     && PIP_ROOT_USER_ACTION=ignore pip install \
     --disable-pip-version-check \
     --no-cache-dir \
-    -i https://pypi.douban.com/simple \
+    -i https://mirrors.cloud.tencent.com/pypi/simple/ \
     requests selenium==4.5.0 schedule==1.1.0 ddddocr==1.4.7 undetected_chromedriver==3.1.6
 
 ENV TZ=Asia/Shanghai
